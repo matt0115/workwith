@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+/* ========================================
+    リセットcss
+========================================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-style:normal;
+	font-weight: normal;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html{overflow-y: scroll;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+input, textarea,{margin: 0; padding: 0;}
+ol, ul{list-style:none;}
+table{border-collapse: collapse; border-spacing:0;}
+caption, th{text-align: left;}
+a:focus {outline:none;}
+
+
+/* ========================================
+	フロートの解除
+========================================= */
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+
+/* ========================================
+body
+========================================= */
+body{
+  font-family:YuGothic, 游ゴシック, "Yu Gothic", 游ゴシック, "Yu Gothic", sans-serif;
+  background-color: #fffff3;
+  
+}
+/* ========================================
+header
+========================================= */
+header{
+  width: 100%;
+  height: 760px;
+  background: url(image/bg-main_visual.jpg);
+  background-size: cover;
+  position: relative;
+}
+header img{
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+}
+/* ========================================
+wrapper
+========================================= */
+
+/* ========================================
+top
+========================================= */
+#top{
+  width: 450px;
+  margin: 0 auto;
+  height: 355px;
+  text-align: center;
+}
+#top h1{
+  font-size: 32px;
+  font-weight: 700;
+  
+  margin-top: 100px;
+  margin-bottom: 50px;
+  line-height: 32px;
+  color: #333333;
+}
+#top p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #333333;
+}
+
+
+/* ========================================
+contents
+========================================= */
+#contents{ 
+  background: url(image/bg-content.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+  padding-top: 100px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+#contents h2{
+  font-size: 32px;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+.big-container {
+  border: 50px solid rgba(10, 10, 10, 0.4);
+  margin-bottom: 100px;
+}
+/* ========================================
+content
+========================================= */
+
+.content{
+  width: 860px;
+
+  display: flex;
+  flex-direction: row;
+}
+/* ========================================
+content-img
+========================================= */
+.content-img,
+.content-img-b{
+
+  width: 430px;
+  height: 280px;
+}
+/* ========================================
+content-text
+========================================= */
+.content-text,
+.content-text-b{
+  background-color: #fffff3;
+  width: 430px;
+  height: 280px;
+  
+}
+
+.content-text h3 span,
+.content-text-b h3 span{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  line-height: 20px;
+  display: inline-block;
+}
+.content-text h3,
+.content-text-b h3{
+  padding-left: 20px;
+  padding-top: 50px;
+  line-height: 28px;
+}
+/* ========================================
+logos
+========================================= */
+#logos{
+  
+  text-align: center;
+  padding-bottom: 93px;
+}
+
+#logos h1{
+  font-size: 32px;
+  font-weight: 700;
+  
+  margin-top: 100px;
+  margin-bottom: 50px;
+  line-height: 32px;
+  color: #333333;
+}
+#logos p{
+  padding-bottom: 70px;
+  line-height: 32px;
+}
+#logos img{
+padding: 0 27.5px;
+}
+
+/* ========================================
+footer
+========================================= */
+footer{
+  background-color: black;
+  height: 60px;
+  display: flex;
+align-items: center;
+justify-content: space-between
+}
+#z {
+  width: 14.6vw;
+
+}
+  
+
+
+footer h5{
+  color: #fff;
+  font-size: 12px;
+  line-height: 60px;
+  
+
+}
+footer a{
+  line-height: 60px;
+  font-size: 12px;
+  color: #fff;
+  }
+.contact{
+padding-right: 20px;
+}
+.policy{
+  padding-right: 20px;
+}
+#b{
+display: flex;
+
+}
+
